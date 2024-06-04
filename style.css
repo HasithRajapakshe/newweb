@@ -149,7 +149,6 @@ input:focus~label,input:not(:placeholder-shown)~label{
     color:blue;
 }
 
-
 body{
     margin: 0;
     background-color: #F4F4F4;
@@ -193,7 +192,7 @@ body{
 .menu .logo{
     font-weight: bold;
     color: #1f0575;
-    font-size: large;
+    font-size: 30px;
 }
 .menu nav a{
     margin-left: 30px;
@@ -680,3 +679,170 @@ footer {
     background: transparent;
     color:#fff
   }
+
+
+.ours{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 4rem;
+    gap: 2rem;
+    background:linear-gradient(to right, #00093c, #2d0b00);
+    color:#fff;
+}
+.data{
+display: flex;
+flex-direction: row;
+gap: 10rem;
+margin-top: 2rem; ;  
+}
+.green{
+color:#65e4a3; 
+transition: transform 0.3s ease;
+font-size: 18px;
+}
+.green:hover {
+    transform: scale(1.2);
+}
+.CTN3::before{
+    width: 500px;
+    height: 300px;
+    content: '';
+    background-image: linear-gradient(70deg, #DC422A, rgb(5, 5, 247));
+    position: absolute;
+    z-index: -1;
+    border-radius: 20% 30% 80% 10%;
+    filter: blur(150px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    transition: 1s;
+    
+}
+.CTN3{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 60px;
+
+}
+.CTN3 form{
+    width: 670px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,1,0.5);
+    border-radius: 15px;
+    background: rgba(243, 236, 236, 0.1);
+    backdrop-filter: blur(20px);
+    flex-wrap: wrap;
+}
+.CTN3 form h1{
+    color:#144d86;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    
+}
+.CTN3 form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #4b47473a;
+}
+.CTN3 form input::placeholder{
+    color: #0d3a34;
+    font-weight: 500;
+}
+.CTN3 form #lastName,
+.CTN3 form #mobile{
+    margin-left: 20px;
+}
+.CTN3 form h4{
+    color: #0d3a34;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+.CTN3 form textarea{
+    background: none;
+    border: none;
+    color:#000000;
+    border-bottom: 2px solid #4b47473a;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 80px ;
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+.CTN3 form #but{
+    border: none;
+    background: #0adf9f;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color:#333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.CTN3 form #but:hover{
+   opacity:0.7;
+}
+
+.about{
+    width:100%;
+    min-height: 100vh;
+    }
+.about h2{
+    text-align: center;
+    font-size: 33px;
+    color: #1d7bb1;
+  
+    letter-spacing: 1.5px;
+    margin-top: 82px;
+    font-weight: 600;
+}
+.wrapper{
+    padding: 0px 60px;
+    margin: 60px auto;
+}
+.ctn{
+    width: 500px;
+    float: left;
+    text-align: left;
+    padding: 0px 30px;
+  }
+
+  .imsec{
+    width: 40%;
+    float: right;
+    padding: 0px 30px;
+  }
+ .imsec img {
+    max-width: 100%;
+    height:auto;
+
+}
+  

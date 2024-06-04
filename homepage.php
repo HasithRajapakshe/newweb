@@ -240,7 +240,24 @@ include("connect.php");
 </div> 
    <p>feheielbnhiotjhjgfonnohjoijofbtlkhelbkhyjijdflehhjhhitjhoijeblblkbm</p>
 
-    
+    <section class="ours">
+        <h1 style="font-size: 20px;">24/7 Updates and Services: Serving Over 1000 Users and Counting</h1>
+        <p>Welcome to GoLanka.com, your all-in-one travel booking platform for Sri Lanka. Effortlessly book flights, trains, hotels, and taxis with our user-friendly service. Discover the best deals and make your travel experience smooth and enjoyable. Start your Sri Lankan adventure with us today!</p>
+        <div class="data">
+            <div class="child">
+                <h2 class="green">10k</h2>
+                <p>more than visiters</p>
+        </div>
+            <div class="child">
+                <h2 class="green">1k</h2>
+                <p>users loging</p>
+            </div>
+            <div class="child">
+                <h2 class="green">500</h2>
+                <p>active users</p>
+            </div>
+        </div>
+</section>
     <script src="app.js"></script>
     <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
