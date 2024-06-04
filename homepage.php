@@ -23,7 +23,6 @@ include("connect.php");
     </nav>
 </div>
 
-
     <div class="carousel">
         <div class="list">
             <div class="item">
