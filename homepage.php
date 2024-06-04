@@ -1,6 +1,7 @@
 <?php
 session_start();
 include("connect.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -13,14 +14,16 @@ include("connect.php");
 </head>
 <body>
 
-<header>
+  <div class="menu">
     <div class="logo">GoLanka.com</div>
     <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact Us</a>
+        <a href="homepage.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="contac.php">Contact Us</a>
     </nav>
-</header>
+</div>
+
+
     <div class="carousel">
         <div class="list">
             <div class="item">
@@ -79,36 +82,13 @@ include("connect.php");
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Aerphone GHTK</div>
+                    <div class="title">Arrivals and Departures</div>
                     <div class="des">
-                        <!-- lorem 50 -->
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                    Stay informed with the latest updates on flights arriving and departing from Sri Lanka with GoLanka.com . Our platform provides real-time information on all incoming and outgoing flights, ensuring you have the most accurate and up-to-date details at your fingertips.
                     </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
-                    </div>
+                    <br>
                     <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
+                        <button onclick="document.location='flight.php'">CHECKOUT</button>
                     </div>
                 </div>
             </div>
@@ -121,6 +101,7 @@ include("connect.php");
                     <div class="des">
                     Discover the best accommodations across Sri Lanka with GoLanka.com. Whether you're looking for luxury resorts, budget-friendly hotels, or charming boutique stays, our platform offers a wide range of options to suit your needs. 
                     </div>
+
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">

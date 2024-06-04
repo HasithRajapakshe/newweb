@@ -181,7 +181,7 @@ body{
     --item5-zIndex: 7;
     --item5-opacity: 0;
 }
-header{
+.menu{
     width: 1140px;
     max-width: 90%;
     display: flex;
@@ -190,19 +190,19 @@ header{
     height: 50px;
     align-items: center;
 }
-header .logo{
+.menu .logo{
     font-weight: bold;
     color: #1f0575;
     font-size: large;
 }
-header nav a{
+.menu nav a{
     margin-left: 30px;
     text-decoration: none;
-    color: #555;
+    color: #1f0575;
     font-weight: 500;
 }
-header nav a:hover{
-  color: #1d0370;
+ a:hover{
+  color: #cbc6db;
 }
 /* carousel */
 .carousel{
@@ -448,14 +448,14 @@ header nav a:hover{
 }
 .carousel.carousel.showDetail .list .item:nth-child(2) .checkout button{
     font-family: Poppins;
-    background-color: transparent;
-    border: 1px solid #5555;
+    background-color: #693EFF;
+    color: #eee;
     margin-left: 5px;
     padding: 5px 10px;
     letter-spacing: 2px;
     font-weight: 500;
 }
-.carousel.carousel.showDetail .list .item:nth-child(2) .checkout button:nth-child(2){
+.carousel.carousel.showDetail .list .item:nth-child(1) .checkout button:nth-child(1){
     background-color: #693EFF;
     color: #eee;
 }
@@ -528,7 +528,7 @@ header nav a:hover{
     width: 500px;
     height: 300px;
     content: '';
-    background-image: linear-gradient(70deg, #DC422A, blue);
+    background-image: linear-gradient(70deg, #DC422A, rgb(5, 5, 247));
     position: absolute;
     z-index: -1;
     border-radius: 20% 30% 80% 10%;
@@ -595,3 +595,88 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+#form{
+    background-color: #d8bdbd;
+    height:500px;
+    width:700px;
+    margin:auto;
+    padding:20px;
+    opacity: 0.7;
+}
+#form h3{
+    border-bottom: 2px solid #3399ff;
+    width:210px;
+    padding: 5px;
+}
+::placeholder{
+    color:#fff
+}
+#input #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input2 #input-group{
+    width:195px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input3 #input-group{
+    margin-left: 50px;
+}
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input4 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input5 h3{
+    border-bottom: 2px solid #3399ff;
+    width:220px;
+    padding: 5px;
+}
+#input6 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input6 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+  }
