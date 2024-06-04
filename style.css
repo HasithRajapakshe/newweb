@@ -204,11 +204,12 @@ body{
   color: #cbc6db;
 }
 
+
 .carousel{
     position: relative;
     height: 800px;
-    overflow: hidden;
-    margin-top: -50px;
+    overflow:hidden;
+    margin-top: 0px;
 }
 .carousel .list{
     position: absolute;
@@ -877,8 +878,8 @@ textarea::-webkit-scrollbar-thumb{
   .box {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-   
   }
   
   .box .images {

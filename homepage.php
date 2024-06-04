@@ -14,7 +14,9 @@ include("connect.php");
 </head>
 <body>
 
-<div class="menu">
+
+    <div class="carousel">
+    <div class="menu">
     <div class="logo">GoLanka.com</div>
     <nav>
         <a href="homepage.php">Home</a>
@@ -22,8 +24,6 @@ include("connect.php");
         <a href="contac.php">Contact Us</a>
     </nav>
 </div>
-
-    <div class="carousel">
         <div class="list">
             <div class="item">
                 <img src="images/img66.jpg">
