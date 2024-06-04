@@ -14,7 +14,7 @@ include("connect.php");
 </head>
 <body>
 
-  <div class="menu">
+<div class="menu">
     <div class="logo">GoLanka.com</div>
     <nav>
         <a href="homepage.php">Home</a>
@@ -237,8 +237,21 @@ include("connect.php");
         </div>
     </div>
 </div> 
-   <p>feheielbnhiotjhjgfonnohjoijofbtlkhelbkhyjijdflehhjhhitjhoijeblblkbm</p>
+<div class="Bnf">
+    <h1>Benefits of Using GoLanka.com</h1>
+    <h3>At GoLanka.com, we strive to make your travel planning effortless and enjoyable. Here are some key benefits of using our platform:</h3>
+    <p>Our platform offers an all-in-one travel solution where you can book flights, trains, hotels, and taxis all in one place, saving you time and hassle. Enjoy the best deals and prices by comparing options and securing the most value for your money. Our user-friendly interface makes searching, comparing, and booking your travel services a breeze, with real-time updates on flight arrivals and departures to keep you informed.</p>
+    <div class="more">
+                        <button class="green" onclick="document.location='about.php'">more</button>
+                    </div>
 
+</div>
+<div class="box">
+    <h4>Available in</h4>
+    <a href="play.google.com"><img width="130px" height="70px" src="images/img88.png"></a>
+    <a href="www.apple.com"><img width="120px" height="80px" src="images/img77.png"></a>
+</div>
+                    
     <section class="ours">
         <h1 style="font-size: 20px;">24/7 Updates and Services: Serving Over 1000 Users and Counting</h1>
         <p>Welcome to GoLanka.com, your all-in-one travel booking platform for Sri Lanka. Effortlessly book flights, trains, hotels, and taxis with our user-friendly service. Discover the best deals and make your travel experience smooth and enjoyable. Start your Sri Lankan adventure with us today!</p>

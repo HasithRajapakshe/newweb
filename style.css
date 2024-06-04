@@ -200,10 +200,10 @@ body{
     color: #1f0575;
     font-weight: 500;
 }
- a:hover{
+.menu nav a:hover{
   color: #cbc6db;
 }
-/* carousel */
+
 .carousel{
     position: relative;
     height: 800px;
@@ -476,7 +476,7 @@ body{
 }
 .arrows{
     position: absolute;
-    bottom: 10px;
+    bottom: 100px;
     width: 1140px;
     max-width: 90%;
     display: flex;
@@ -799,7 +799,7 @@ textarea::-webkit-scrollbar-thumb{
     border-radius: 5px;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     color:#333;
     width: 100px;
     padding: 0;
@@ -845,4 +845,55 @@ textarea::-webkit-scrollbar-thumb{
     height:auto;
 
 }
+  .Bnf{
+    padding: 70px; 
+  }
+  .Bnf h1{
+    color: brown;
+    font-weight: 600;
+    text-align: center;
+  }
+  .Bnf h3{
+    font-weight: 500;
+  }
+  .Bnf p{
+    color: darkgrey;
+    text-align: justify;
+  }
+  .Bnf .green{
+    border: none;
+    background: #0adf9f;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+  }
   
+  .box .images {
+    display: flex;
+   
+    margin-top: 5px;
+    
+  }
+  
+ .box .images a {
+    margin: 0 10px;
+  }
+  
+  .box .images img {
+    width: 130px;
+    height: 70px;
+     
+  }
