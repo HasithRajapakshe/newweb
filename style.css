@@ -307,7 +307,7 @@ body{
     opacity: var(--item5-opacity);
     pointer-events: none;
 }
-/* animation text in item2 */
+
 .carousel .list .item:nth-child(2) .introduce .title,
 .carousel .list .item:nth-child(2) .introduce .topic,
 .carousel .list .item:nth-child(2) .introduce .des,
@@ -334,7 +334,7 @@ body{
 .carousel .list .item:nth-child(2) .introduce .seeMore{
     animation-delay: 1.6s;
 }
-/* next click */
+
 .carousel.next .item:nth-child(1){
     animation: transformFromPosition2 0.5s ease-in-out 1 forwards;
 }
@@ -375,7 +375,7 @@ body{
         opacity: var(--item5-opacity);
     }
 }
-/* previous */
+
 .carousel.prev .list .item:nth-child(5){
     animation: transformFromPosition4 0.5s ease-in-out 1 forwards;
 }
@@ -396,12 +396,12 @@ body{
     }
 }
 
-/* detail  */
+
 .carousel .list .item .detail{
     opacity: 0;
     pointer-events: none;
 }
-/* showDetail */
+
 .carousel.showDetail .list .item:nth-child(3),
 .carousel.showDetail .list .item:nth-child(4){
     left: 100%;
@@ -513,7 +513,7 @@ body{
     letter-spacing: 3px;
     background-color: transparent;
     padding: 10px;
-    /* opacity: 0; */
+    
     transition: opacity 0.5s;
 }
 .carousel.showDetail #back{
@@ -543,7 +543,7 @@ body{
     filter: blur(130px);
 }
 @media screen and (max-width: 991px){
-    /* ipad, tablets */
+    
     .carousel .list .item{
         width: 90%;
     }
@@ -555,7 +555,7 @@ body{
     }
 }
 @media screen and (max-width: 767px){
-    /* mobile */
+   
     .carousel{
         height: 600px;
     }

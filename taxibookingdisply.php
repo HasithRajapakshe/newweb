@@ -13,7 +13,7 @@ include("connect.php");
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0; 
 }
 
 .ticket {
@@ -21,7 +21,7 @@ include("connect.php");
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #ebe387; /* White background */
+    background-color: #ebe387; 
     padding: 20px;
     margin-top:10%;
 }
@@ -33,26 +33,26 @@ include("connect.php");
 
 .ticket-header h1 {
     margin: 0;
-    color: #585852; /* Dark blue text color */
+    color: #585852; 
 }
 
 .ticket-info {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
-    background-color: #f9f9f9; /* Light gray background for ticket info */
+    background-color: #f9f9f9; 
     border: 1px solid #ccc;
 }
 
 .ticket-info p {
     margin: 5px 0;
-    color: #333; /* Dark text color */
+    color: #333; 
 }
 
 .ticket-info p strong {
     font-weight: bold;
     margin-right: 5px;
-    color: #021e55; /* Dark blue text color for strong elements */
+    color: #021e55; 
 }
 
     </style>

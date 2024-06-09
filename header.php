@@ -1,4 +1,4 @@
-<!-- header.php -->
+
 
 <div class="menu">
     <div class="logo">GoLanka.com</div>

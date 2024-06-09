@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>Admin Login</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Add styles for admin panel and login form */
+        
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;

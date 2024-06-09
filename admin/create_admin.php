@@ -1,8 +1,8 @@
 <?php
 include("connect.php");
 
-$username = "admin"; // Change as needed
-$password = password_hash("admin123", PASSWORD_DEFAULT); // Change as needed
+$username = "admin"; 
+$password = password_hash("admin123", PASSWORD_DEFAULT); 
 
 $sql = "INSERT INTO admin (username, password) VALUES (?, ?)";
 if ($stmt = $conn->prepare($sql)) {

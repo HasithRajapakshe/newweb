@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin_loggedin']) || $_SESSION['admin_loggedin'] !== true)
     exit();
 }
 
-// Fetch all bookings from the database
+
 $flight_sql = "SELECT * FROM flight_bookings";
 $hotel_sql = "SELECT * FROM hotel_bookings";
 $train_sql = "SELECT * FROM train_bookings";

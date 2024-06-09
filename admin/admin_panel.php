@@ -12,7 +12,7 @@ if (!isset($_SESSION['admin_logged_in'])) {
     <title>Admin Panel</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Add styles for admin panel and login form */
+       
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;

@@ -1,12 +1,12 @@
 <?php
 include 'connect.php';
 
-// Check connection
+
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-// Get form data and ensure it matches the form input names
+
 $from = $_POST['from'];
 $to = $_POST['to'];
 $airline = $_POST['airline'];
@@ -20,7 +20,7 @@ $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 
-// Insert data into database using prepared statements
+
 $sql = "INSERT INTO bookings (`from`, `to`, airline, seating, departure_date, departure_time, return_date, return_time, message, name, phone, email) 
 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 

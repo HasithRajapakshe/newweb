@@ -26,10 +26,10 @@ if ($conn->connect_error) {
 $stmt->bind_param("sssiissss", $visitor_name, $visitor_email, $visitor_phone, $total_adults, $total_children, $checkin, $checkout, $room_preference, $visitor_message);
 
         if ($stmt->execute()) {
-            // Redirect to displayhotelbooking.php
+           
             header("Location: displayhotelbooking.php");
             exit(); 
-            // Make sure to exit after redirecting
+           
         } else {
 
             echo "Error: " . $stmt->error;

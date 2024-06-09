@@ -2,12 +2,12 @@
 session_start();
 include("connect.php");
 
-// Check connection
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Get form data and ensure it matches the form input names
+
 $from = $_POST['from'];
 $to = $_POST['to'];
 $train = $_POST['train'];
@@ -19,7 +19,7 @@ $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 
-// Insert data into database using prepared statements
+
 $sql = "INSERT INTO train_bookings (from_location, to_location, train_name, seating_preference, departure_date, departure_time, message, full_name, phone_number, email) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
 $stmt = $conn->prepare($sql);
@@ -31,7 +31,7 @@ if ($stmt === false) {
 $stmt->bind_param("ssssssssss", $from, $to, $train, $seating, $departure_date, $departure_time, $message, $name, $phone, $email);
 
 if ($stmt->execute()) {
-    // Construct the URL parameters string
+   
     $url_params = http_build_query(array(
         'from' => $from,
         'to' => $to,
@@ -45,7 +45,7 @@ if ($stmt->execute()) {
         'email' => $email
     ));
     
-    // Redirect to ticket_display.php with the URL parameters
+   
     header("Location: trainticketdisplay.php?" . $url_params);
     exit();
 } else {
