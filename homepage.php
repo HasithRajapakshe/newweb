@@ -11,6 +11,7 @@ include("connect.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+     
 </head>
 <body>
 
@@ -19,10 +20,13 @@ include("connect.php");
     <div class="menu">
     <div class="logo">GoLanka.com</div>
     <nav>
+        
         <a href="homepage.php">Home</a>
         <a href="about.php">About</a>
         <a href="contac.php">Contact Us</a>
+
     </nav>
+    
 </div>
         <div class="list">
             <div class="item">
@@ -36,36 +40,13 @@ include("connect.php");
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Aerphone GHTK</div>
+                    <div class="title">Wonder Of Asia</div>
                     <div class="des">
-                        <!-- lorem 50 -->
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                    Embark on a journey to the tropical paradise of Sri Lanka and discover a land of captivating contrasts and boundless beauty. From lush green tea plantations to golden sandy beaches, ancient cultural marvels to thrilling wildlife encounters, Sri Lanka offers a kaleidoscope of experiences for every traveler.
                     </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
-                    </div>
+                    <br>
                     <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
+                        <button onclick="document.location='https://www.lonelyplanet.com/sri-lanka'">CHECKOUT</button>
                     </div>
                 </div>
             </div>
@@ -104,36 +85,13 @@ include("connect.php");
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Aerphone GHTK</div>
+                    <div class="title">The Best Hotels in Sri Lanka</div>
                     <div class="des">
-                        <!-- lorem 50 -->
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                    Experience the diverse charm and unparalleled hospitality of Sri Lanka with our extensive selection of hotels. Whether you're seeking a luxurious beachfront resort, a cozy boutique hotel, or a budget-friendly stay, GoLanka.com makes finding and booking your perfect accommodation effortless.
                     </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
-                    </div>
+                    <br>
                     <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
+                        <button onclick="document.location='hotels.php'">CHECKOUT</button>
                     </div>
                 </div>
             </div>
@@ -149,36 +107,13 @@ include("connect.php");
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Aerphone GHTK</div>
+                    <div class="title">Explore Sri Lanka by Rail</div>
                     <div class="des">
-                        <!-- lorem 50 -->
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                    Immerse yourself in the scenic beauty and cultural richness of Sri Lanka's railways with GoLanka.com. Whether you're planning a leisurely journey through lush tea plantations, a thrilling ride along the coast, or an adventure to historic sites, our platform makes booking your train tickets a breeze.
                     </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
-                    </div>
+                    <br>
                     <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
+                        <button onclick="document.location='trains.php'">CHECKOUT</button>
                     </div>
                 </div>
             </div>
@@ -194,36 +129,13 @@ include("connect.php");
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
                 <div class="detail">
-                    <div class="title">Aerphone GHTK</div>
+                    <div class="title">QuickRide Taxi Booking</div>
                     <div class="des">
-                        <!-- lorem 50 -->
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, reiciendis suscipit nobis nulla animi, modi explicabo quod corrupti impedit illo, accusantium in eaque nam quia adipisci aut distinctio porro eligendi. Reprehenderit nostrum consequuntur ea! Accusamus architecto dolores modi ducimus facilis quas voluptatibus! Tempora ratione accusantium magnam nulla tenetur autem beatae.
+                    Easily book your taxi with our platform. Compare prices, choose your vehicle, and reserve your ride in just a few clicks. Enjoy reliable service, transparent pricing, and 24/7 availability. Track your ride in real-time for a hassle-free travel experience. Start your journey with us today!
                     </div>
-                    <div class="specifications">
-                        <div>
-                            <p>Used Time</p>
-                            <p>6 hours</p>
-                        </div>
-                        <div>
-                            <p>Charging port</p>
-                            <p>Type-C</p>
-                        </div>
-                        <div>
-                            <p>Compatible</p>
-                            <p>Android</p>
-                        </div>
-                        <div>
-                            <p>Bluetooth</p>
-                            <p>5.3</p>
-                        </div>
-                        <div>
-                            <p>Controlled</p>
-                            <p>Touch</p>
-                        </div>
-                    </div>
+                    <br>
                     <div class="checkout">
-                        <button>ADD TO CART</button>
-                        <button>CHECKOUT</button>
+                        <button onclick="document.location='taxi.php'">CHECKOUT</button>
                     </div>
                 </div>
             </div>

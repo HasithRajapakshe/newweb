@@ -42,4 +42,11 @@ seeMoreButtons.forEach((button) => {
 backButton.onclick = function(){
     carousel.classList.remove('showDetail');
 }
+$(function() {
+    $("#departure-date").datepicker({
+      dateFormat: "yy-mm-dd",
+      minDate: 0
+    });
+  });
 
+  

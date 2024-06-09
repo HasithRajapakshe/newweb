@@ -11,72 +11,58 @@ include("connect.php");
     <title>Airline Booking Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="flights">
+<body class="taxis">
 <div class="menu">
     <div class="logo">GoLanka.com</div>
     <nav>
         <a href="homepage.php">Home</a>
         <a href="about.php">About</a>
-        <a href="contac.php">Contact Us</a>
+        <a href="contact.php">Contact Us</a>
     </nav>
 </div>
 <div class="bookf1">
-   
     <div class="booking-form-w3layouts">
-        <form action="booking.php" method="post">
+        <form action="taxibook.php" method="post">
             <h2 class="sub-heading-agileits">Booking Details</h2>
             <div class="main-flex-w3ls-sectns">
                 <div class="field-agileinfo-spc form-w3-agile-text1">
                     <select class="form-control" name="from" required>
                         <option value="" disabled selected>From</option>
-                        <option value="Sri Lanka">Sri Lanka</option>
-                        <option value="United Kingdom">United Kingdom</option>
-                        <option value="China">China</option>
+                        <option value="Colombo">Colombo</option>
+                        <option value="Badulla">Badulla</option>
+                        <option value="Kandy">Kandy</option>
+                        <option value="Anuradhapura">Anuradhapura</option>
+                        <option value="Jaffna">Jaffna</option>
+                        <option value="Matara">Matara</option>
                     </select>
                 </div>
                 <div class="field-agileinfo-spc form-w3-agile-text2">
                     <select class="form-control" name="to" required>
-                        <option value="" disabled selected>To</option>
-                        <option value="Sri Lanka">Sri Lanka</option>
-                        <option value="United Kingdom">United Kingdom</option>
-                        <option value="China">China</option>
+                    <option value="" disabled selected>To</option>
+                        <option value="Colombo">Colombo</option>
+                        <option value="Badulla">Badulla</option>
+                        <option value="Kandy">Kandy</option>
+                        <option value="Anuradhapura">Anuradhapura</option>
+                        <option value="Jaffna">Jaffna</option>
+                        <option value="Matara">Matara</option>
                     </select>
                 </div>
             </div>
             <div class="main-flex-w3ls-sectns">
                 <div class="field-agileinfo-spc form-w3-agile-text1">
-                    <select class="form-control" name="airline" required>
-                        <option value="" disabled selected>Preferred Airline</option>
-                        <option value="AirLanka">AirLanka</option>
-                        <option value="AirAsia">AirAsia</option>
-                        <option value="UKline">UKline</option>
+                    <select class="form-control" name="taxis" required>
+                        <option value="" disabled selected>Preferred Taxis</option>
+                        <option value="Buses">Buses</option>
+                        <option value="Tuk">Tuk</option>
+                        <option value="Cars">Cars</option>
+                        <option value="Cabs">Cabs</option>
+                        
                     </select>
                 </div>
-                <div class="field-agileinfo-spc form-w3-agile-text2">
-                    <select class="form-control" name="seating" required>
-                        <option value="" disabled selected>Preferred Seating</option>
-                        <option value="Window">Window</option>
-                        <option value="Aisle">Aisle</option>
-                        <option value="Special">Special (Request note below)</option>
-                    </select>
-                </div>
+                
             </div>
-            <div class="main-flex-w3ls-sectns">
-                <div class="field-agileinfo-spc form-w3-agile-text1">
-                    <input id="datepicker" name="departure_date" type="text" placeholder="Departure Date" required>
-                </div>
-                <div class="field-agileinfo-spc form-w3-agile-text2">
-                    <input type="text" id="timepicker" name="departure_time" placeholder="Departure Time">
-                </div>
-            </div>
-            <div class="main-flex-w3ls-sectns">
-                <div class="field-agileinfo-spc form-w3-agile-text1">
-                    <input id="datepicker1" name="return_date" type="text" placeholder="Return Date">
-                </div>
-                <div class="field-agileinfo-spc form-w3-agile-text2">
-                    <input type="text" id="timepicker1" name="return_time" placeholder="Return Time">
-                </div>
-            </div>
+            
+            
             <div class="field-agileinfo-spc form-w3-agile-text">
                 <textarea name="message" placeholder="Any Message..."></textarea>
             </div>
